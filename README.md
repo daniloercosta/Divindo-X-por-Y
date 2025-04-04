@@ -1,31 +1,62 @@
-# 🔠 Detect Capital
+![Imagem do Projeto](projeto.png)
 
-Este é um projeto em C# que verifica se o uso de letras maiúsculas em uma palavra está correto. O programa segue três regras principais para considerar uma palavra válida:
+# Dividindo X por Y
 
-1️⃣ Todas as letras são maiúsculas (exemplo: `"USA"`).  
-2️⃣ Todas as letras são minúsculas (exemplo: `"hello"`).  
-3️⃣ Apenas a primeira letra é maiúscula (exemplo: `"Hello"`).  
+![Cálculo de Divisão](A_flat_digital_illustration_features_mathematical_.png)
 
-## 🚀 Como Funciona?
+Este projeto é uma aplicação de console simples em C# criada para ler pares de números e calcular a divisão entre eles. Ele também trata o caso em que o divisor é zero, informando que a divisão é impossível.
 
-A função `DetectCapitalUse(string word)` analisa a palavra fornecida e retorna `true` se a formatação estiver correta de acordo com as regras acima. Caso contrário, retorna `false`.
+## 💡 Descrição
 
-## 📌 Exemplo de Uso
+O programa:
 
-```csharp
-Solution solution = new Solution();
+- Lê a quantidade de divisões a serem realizadas.
+- Para cada par de valores `X` e `Y`:
+  - Calcula `X / Y` se `Y != 0`
+  - Exibe `"divisao impossivel"` se `Y == 0`
 
-Console.WriteLine(solution.DetectCapitalUse("USA"));   // true
-Console.WriteLine(solution.DetectCapitalUse("FlaG"));  // false
-Console.WriteLine(solution.DetectCapitalUse("Hello")); // true
-Console.WriteLine(solution.DetectCapitalUse("java"));  // true
+## 🧪 Exemplo de entrada
+
+```
+3
+3 2
+4 0
+10 5
 ```
 
-## 🛠️ Tecnologias Utilizadas
+## 📤 Exemplo de saída
 
+```
+1,5
+divisao impossivel
+2,0
+```
+
+## 🛠️ Tecnologias
+
+- .NET Core 3.1
 - C#
-- .NET 5
 
-## 📜 Licença  
+## 🚀 Como executar
 
-Este projeto está sob a licença MIT. Sinta-se à vontade para usar e modificar.  
+1. Clone o repositório
+2. Abra no Visual Studio ou rode pelo terminal com:
+
+```bash
+dotnet run --project ConsoleApp1
+```
+
+## 📁 Estrutura do Projeto
+
+```
+Dividindo X por Y/
+├── ConsoleApp1/
+│   ├── Program.cs
+│   └── ConsoleApp1.csproj
+├── Dividindo X por Y.sln
+└── README.md
+```
+
+---
+
+Desenvolvido com 💻 por [Danilo Costa](https://github.com/daniloercosta)
