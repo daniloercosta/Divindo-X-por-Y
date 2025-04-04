@@ -2,8 +2,6 @@
 
 # Dividindo X por Y
 
-![Cálculo de Divisão](A_flat_digital_illustration_features_mathematical_.png)
-
 Este projeto é uma aplicação de console simples em C# criada para ler pares de números e calcular a divisão entre eles. Ele também trata o caso em que o divisor é zero, informando que a divisão é impossível.
 
 ## 💡 Descrição
